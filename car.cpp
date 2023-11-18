@@ -96,10 +96,10 @@ void listofcars()
 				i++;
        		}
 			infile.close();
-	cout<< "\t\t\t\tEnter 8 to go back to Main Menu"<<endl<<endl;
-    cout<< "\n\t\t\t\tOption(1-7): ";  
+	cout<< "\t\t\t\tEnter 9 to go back to Main Menu"<<endl<<endl;
+    cout<< "\n\t\t\t\tOption(1-8): ";  
 		cin >>record.cmodel;
-		if(record.cmodel == 8)						//return to main
+		if(record.cmodel == 9)						//return to main
 		{
 			system("cls");
 			return;
@@ -121,10 +121,10 @@ void listofcars()
 		cout<<"\n\t\t\t\tPhone Number: "<<s;
 	
     
-if(record.cmodel !=1 && record.cmodel !=2 &&  record.cmodel !=3 && record.cmodel !=4 && record.cmodel !=5 && record.cmodel !=6 && record.cmodel !=7)
+if(record.cmodel !=1 && record.cmodel !=2 &&  record.cmodel !=3 && record.cmodel !=4 && record.cmodel !=5 && record.cmodel !=6 && record.cmodel !=7 && record.cmodel !=8)
       cout<<"\n\n\t\t\t\tInvaild Car Model. Please try again!"<<endl;
         }
-while(record.cmodel !=1 && record.cmodel !=2 && record.cmodel !=3 && record.cmodel !=4 && record.cmodel !=5 && record.cmodel !=6 && record.cmodel !=7);
+while(record.cmodel !=1 && record.cmodel !=2 && record.cmodel !=3 && record.cmodel !=4 && record.cmodel !=5 && record.cmodel !=6 && record.cmodel !=7 && record.cmodel !=8);
     float totalprice,tax=555;
     cout<<"\n\n\t\t\t\tDate of Renting(dd/mm/yyy): ";
     string d;
@@ -136,10 +136,10 @@ while(record.cmodel !=1 && record.cmodel !=2 && record.cmodel !=3 && record.cmod
 	cout<<"\n\t\t\t\tNumber of days: "<<q;
     cout<<endl;
 		cout<<"\n\t\t\t\tThankyou for visiting us!! We will proceed with your request shortly.";
-		cout<< "\n\n\t\t\t\tEnter 8 to go back to Main Menu"<<endl<<endl;
+		cout<< "\n\n\t\t\t\tEnter 9 to go back to Main Menu"<<endl<<endl;
      
 		cin >>record.cmodel;
-		if(record.cmodel == 8)						//return to main
+		if(record.cmodel == 9)						//return to main
 		{
 			system("cls");
 			return;
@@ -209,7 +209,7 @@ void account()													//account function
 			cout<<"hello";
 			system("cls");
 			cout<<"Customer Records: \n\n";
-			cout<<"1. Khushi : kia sorento--(12/11/23) 5days\n 2. Akshita : Audi A3--(1/12/23) 3days \n " ;
+			cout<<"1. Khushi : kia sorento--(12/11/23) 5days\n 2. Akshita : Audi A3--(1/12/23) 3days \n 3. Khushi : Porsche 911--(20/11/23) 6 days" ;
 			ifstream INFile("customerinfo.txt");
 			string line;
 			while(!INFile.eof())
@@ -330,4 +330,3 @@ int main()
 	
 	return 0;
 }
-
