@@ -116,7 +116,7 @@ void listofcars()
 	
 		
 	cout<< "\n\n\t\t\t\tPlease Enter Customer Phone No.: ";   
-		long s;
+		string s;
 		cin>>s;
 		cout<<"\n\t\t\t\tPhone Number: "<<s;
 	
