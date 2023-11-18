@@ -1,4 +1,4 @@
-# car_rental_project
+# WHEELDEAL
 
 use id: khushi
 
